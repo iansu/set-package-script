@@ -1,0 +1,12 @@
+{
+  "name": "set-script",
+  "version": "1.0.0",
+  "description": "A replacement for the deprecated npm set-script command",
+  "author": "Ian Sutherland <ian@iansutherland.ca>",
+  "main": "index.js",
+  "keywords": ["npm", "scripts", "package.json", "tool"],
+  "license": "MIT",
+  "dependencies": {
+    "find-up": "^5.0.0"
+  }
+}
