@@ -13,7 +13,7 @@ if (!key) {
 try {
   const packageJson = JSON.parse(packageJsonContents);
 
-  if (packageJson.scripts?.[key] !== undefined) {
+  if (packageJson.scripts && packageJson.scripts[key] !== undefined) {
     if (value === undefined) {
       delete packageJson.scripts[key];
     } else {

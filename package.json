@@ -1,5 +1,5 @@
 {
-  "name": "set-script",
+  "name": "set-package-script",
   "version": "1.0.0",
   "description": "A replacement for the deprecated npm set-script command",
   "author": "Ian Sutherland <ian@iansutherland.ca>",
